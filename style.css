@@ -1,0 +1,200 @@
+.outer{
+    position: absolute;
+}
+.left_nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.logo{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.texte{
+  margin-top: 7px;
+  font-size: 21px;
+  font-weight: 600;
+  width: 16rem;
+}
+
+.right_nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+    
+}
+
+.headnav{
+    gap: 27rem !important;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+    cursor:pointer
+}
+
+/* Message Box */
+.msgbox{
+    /* position: relative; */
+    width: 180px;
+    height: 69px;
+    right: 23.5rem;
+    top: 155px;
+    background: linear-gradient(90deg, #32F6F6 0%, #A6A79F 100%);
+    border-radius: 50px 50px 50px 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+    font-weight: 600;
+    margin-right: 10rem;
+  }
+.cv{
+    /* CV Button */
+
+box-sizing: border-box;
+
+/* position: absolute; */
+width: 175px;
+height: 60px;
+left: 269px;
+top: 649px;
+
+background: linear-gradient(90deg, #DF580C 0%, #FD993D 100%);
+border: 3px solid #FFFFFF;
+box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+color: white;
+font-weight: 700;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.git{
+    /* Touch Button */
+box-sizing: border-box;
+/* position: absolute; */
+width: 175px;
+height: 60px;
+left: 469px;
+top: 649px;
+background: linear-gradient(90deg, #434343 0%, #000000 100%);
+border: 3px solid #FFFFFF;
+box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+color: white;
+font-weight: 700;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.left_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+    right: 4rem;
+    width: 43rem;
+  /* margin-top: 6rem; */
+  padding-right: 11rem;
+}
+.text-emo{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  /* position: relative; */
+  top: 11rem;
+  right: 22rem;
+  margin-right: 7rem;
+}
+.anish-text{
+    list-style: none;
+  font-size: 2.5rem;
+  font-weight: 650;
+}
+
+.text{
+    list-style: none;
+    width: 548px;
+    font-size: 1.6rem;
+    font-weight: 250;
+    /* position: relative; */
+    left: 9rem;
+    margin-left: 12rem;
+
+}
+
+ 
+
+.svg-img{
+  /* position: relative; */
+  left: 45rem;
+  width: 24rem;
+}
+.right_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+main{
+    display: flex;
+    margin-top: 4rem;
+}
+.buttons{
+    display: flex;
+  column-gap: 2rem;
+  margin-top: 7rem;
+}
+.underlime{
+    height: 0.2rem;
+    width: 6.3rem;
+    background-color: #000000;
+    position: relative;
+    bottom: 0.5rem;
+  right: 3rem;
+  border-radius: 30px;
+}
+.social-media-links{
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+  bottom: 3rem;
+  width: fit-content;
+  row-gap: 1rem;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 11.8rem;
+    
+}
+
+.underline{
+    height: 0.4rem;
+  width: 1.8rem;
+  background-color: black;
+  margin-top: 8rem;
+}
+footer{
+    display: flex;
+  justify-content: space-between;
+}
